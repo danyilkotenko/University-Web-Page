@@ -1,0 +1,208 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#content {
+	height: 1000px;
+	width: 100%;
+	margin-top: -10px;
+	background-color: #ffffff;
+	position: relative;
+	z-index: 1; 
+    margin: 0 auto;
+}
+
+.paragraph, h1 {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.mybutton {
+	padding:.5em;
+    border:.1875em solid #000;
+    background-color: transparent;
+    color: #000;
+    font-weight: 400;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 37%;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+}
+
+.mybutton:hover{
+	color: #252552;
+	border: .1875em solid #252552;
+}
+
+
+
+
+#image_parallex {
+	position: relative;
+	z-index: -1;  /*Makes sure that id will be above the layer, not below*/
+}
+.logo {
+    margin: 0 auto;
+    width: 200px;
+}
+.logo a img{
+    width: 200px;
+    height: auto;
+}
+nav {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav li a {
+    background: #444;
+    border-right: 1px solid #fff;
+    color: #fff;
+    display: block;
+    float: left;
+    font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: calc(100%/5);
+
+    transition: background 0.5s ease;
+}
+
+nav li a:hover {
+    background: #222;
+}
+
+nav small {
+    font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
+    text-transform: none;
+    color: #aaa;
+}
+
+nav li:last-child a {
+    border: none;
+}
+footer{
+    width: 90%;
+    margin: 10px auto;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+footer div{
+    width: calc(100%/3);
+    margin-left: 100px;
+    margin-top: 20px;
+}
+footer .logo-footer img{
+    width: 100%;
+    height: auto;
+}
+footer .footer-header{
+    font-size: 24px;
+    padding: 10px 0 0 15px;
+}
+footer ul{
+     list-style: none;
+}
+footer .footer-contacts li{
+    padding: 1px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+footer .footer-contacts img{
+    padding-top: 10px;
+    width: 32px;
+    height: auto;
+}
+footer .footer-social{
+    margin-top: 20px;
+}
+footer .footer-social img{
+    width: 48px;
+    height: auto;
+    float: left;
+}
+
+
+
+
+@media only screen and (max-width : 1220px),
+only screen and (max-device-width : 1220px){
+    nav li a {
+        font: 400 10px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+
+    nav small {
+        font: 100 10px/1 Helvetica, Verdana, Arial, sans-serif;
+    }
+}
+
+@media only screen and (max-width : 930px),
+only screen and (max-device-width : 930px){
+    nav li a {
+        width: 20%;
+        border-bottom: 1px solid #fff;
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+
+    nav li:last-child a, nav li:nth-child(4) a {
+        border-right: none;
+    }
+
+    nav li:nth-child(5) a, nav li:nth-child(6) a, nav li:nth-child(7) a, nav li:nth-child(8) a {
+        border-bottom: none;
+    }
+    #content .mybutton {
+        margin-left: 10%;
+        font-weight: 10px;
+        font-size: 11px;
+    }
+    #image_parallex {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 580px),
+only screen and (max-device-width : 580px){
+    nav li a {
+        width: 50%;
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    nav li:nth-child(even) a {
+        border-right: none;
+    }
+
+    nav li:nth-child(5) a, nav li:nth-child(6) a {
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+    nav li a {
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+}

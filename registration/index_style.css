@@ -1,0 +1,336 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+.logo {
+    margin: 0 auto;
+    width: 200px;
+}
+.logo a img{
+    width: 200px;
+    height: auto;
+}
+
+.added_buttons{
+    float: right;
+    padding-bottom: 100px;
+    padding-right: 20px;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav li a {
+    background: #444;
+    border-right: 1px solid #fff;
+    color: #fff;
+    display: block;
+    float: left;
+    font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: calc(100%/5);
+
+    transition: background 0.5s ease;
+}
+
+nav li a:hover {
+    background: #222;
+}
+
+nav small {
+    font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
+    text-transform: none;
+    color: #aaa;
+}
+
+nav li:last-child a {
+    border: none;
+}
+
+.clickMe {
+    margin-left:50%;
+    margin-bottom: 20px;
+    margin-right:auto;
+    padding:10px;
+    border:1px solid #000;
+    border-radius:7px;
+    background-color:#ccc;
+
+}
+
+.head-info{
+    margin: 30px auto;
+    background: url("../img/advice-advise-advisor-7096.jpg");
+    background-size: cover;
+    background-position: 80% center;
+    height: 500px;
+    width: 90%;
+
+}
+.head-info_about{
+    margin: 30px auto;
+    background: url("../img/about_main_img.jpg");
+    background-size: cover;
+    background-position: 80% center;
+    height: 500px;
+    width: 90%;
+}
+
+.head-info_about h1{
+    padding: 200px 0 0 20px;
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+
+
+
+
+.head-info h1{
+    padding: 200px 0 0 20px;
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+.head-info p{
+    color: #ffffff;
+    max-width: 70%;
+    padding: 0 10px 0 20px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+    font-size: 25px;
+}
+.btn{
+    margin: 30px 10px;
+    padding: 10px 10px;
+    border: 2px white solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.33s;
+}
+.btn-red{
+    margin-left: 100px;
+    border-color: #b80924;
+    color: #fff;
+    background: #b80924;
+}
+.btn-red:hover{
+    color: #b80924;
+    background: none;
+}
+
+.btn{
+    margin: 30px 10px;
+    padding: 10px 10px;
+    border: 2px white solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.33s;
+}
+.btn-sign-in{
+    margin-left: 850px;
+    border-color: #b80924;
+    color: #fff;
+    background: #b80924;
+}
+.btn-sign-in:hover{
+    color: #b80924;
+    background: none;
+}
+
+.btn-sign-up{
+    margin-left: 100px;
+    border-color: #b80924;
+    color: #fff;
+    background: #b80924;
+}
+.btn-sign-up:hover{
+    color: #b80924;
+    background: none;
+}
+
+
+
+
+
+
+
+.btn-blue{
+    border-color: #1a2942;
+    color: #1a2942;
+}
+.description{
+    width: 90%;
+    margin: 20px auto;
+    color: #1a2942;
+}
+.d50{
+    width: 50%;
+    float: left;
+}
+.description img{
+    width: 100%;
+    height: auto;
+}
+.description .headline-2{
+    font-size: 48px;
+    margin-top: 10px;
+}
+.description h5{
+    font-style: italic;
+    font-size: 24px;
+    padding: 30px 0 50px 10px;
+}
+.photo-block{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.photo-block .photo-block-mp{
+    width: 25%;
+}
+.photo-block img{
+    width: 100%;
+    height: auto;
+}
+.map-main{
+    width: 100%;
+    height: 450px;
+    max-height: 500px;
+    border-bottom: 1px solid grey;
+    box-shadow: 0px 0px 0px 4px rgba(128,124,128,0.3);
+}
+footer{
+    width: 90%;
+    margin: 10px auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+footer div{
+    width: calc(100%/3);
+    margin-left: 100px;
+}
+footer .logo-footer img{
+    width: 100%;
+    height: auto;
+}
+footer .footer-header{
+    font-size: 24px;
+    padding: 10px 0 0 15px;
+}
+footer ul{
+     list-style: none;
+}
+footer .footer-contacts li{
+    padding: 1px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+footer .footer-contacts img{
+    padding-top: 10px;
+    width: 32px;
+    height: auto;
+}
+footer .footer-social{
+    margin-top: 20px;
+}
+footer .footer-social img{
+    width: 48px;
+    height: auto;
+    float: left;
+}
+/* MEDIA QUERIES*/
+@media only screen and (max-width : 1220px),
+only screen and (max-device-width : 1220px){
+    nav li a {
+        font: 400 10px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+
+    nav small {
+        font: 100 10px/1 Helvetica, Verdana, Arial, sans-serif;
+    }
+}
+
+@media only screen and (max-width : 930px),
+only screen and (max-device-width : 930px){
+    nav li a {
+        width: 20%;
+        border-bottom: 1px solid #fff;
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+
+    nav li:last-child a, nav li:nth-child(4) a {
+        border-right: none;
+    }
+
+    nav li:nth-child(5) a, nav li:nth-child(6) a, nav li:nth-child(7) a, nav li:nth-child(8) a {
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width : 580px),
+only screen and (max-device-width : 580px){
+    nav li a {
+        width: 50%;
+        font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    nav li:nth-child(even) a {
+        border-right: none;
+    }
+
+    nav li:nth-child(5) a, nav li:nth-child(6) a {
+        border-bottom: 1px solid #fff;
+    }
+    .btn {
+        display: none;
+    }
+    .head-info h1 {
+        padding-top: 15px;
+    }
+
+}
+
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+    nav li a {
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+    .head-info h1 {
+        padding-top: 10px;
+        font-size: 2em;
+    }
+}

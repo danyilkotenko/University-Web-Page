@@ -1,0 +1,324 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#container
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10;
+
+}
+
+
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+.logo {
+    margin: 0 auto;
+    width: 200px;
+}
+.logo a img{
+    width: 200px;
+    height: auto;
+}
+nav {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav li a {
+    background: #444;
+    border-right: 1px solid #fff;
+    color: #fff;
+    display: block;
+    float: left;
+    font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: calc(100%/5);
+
+    transition: background 0.5s ease;
+}
+
+nav li a:hover {
+    background: #222;
+}
+
+nav small {
+    font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
+    text-transform: none;
+    color: #aaa;
+}
+
+nav li:last-child a {
+    border: none;
+}
+.head-info{
+    margin: 10px auto;
+    background: url("../img/about_main_img.jpg");
+    background-size: cover;
+    background-position: 80% center;
+    height: 500px;
+    width: 90%;
+}
+
+.head-info h1{
+    padding: 200px 0 0 20px;
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.main_content {
+    margin: 10px 80px;
+}
+blockquote.quotation {
+    margin: 20px auto;
+    font-family: 'Dancing Script', cursive;
+    left: 100px;
+    font-size: 1.5em;
+    width: 30%;
+}
+
+.gilman {
+    float: right;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+p.paragraph {
+    padding-top:10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+p a:hover {
+    color:green;
+}
+
+
+
+
+
+.head-info h1{
+    padding: 200px 0 0 20px;
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+.head-info p{
+    color: #ffffff;
+    max-width: 70%;
+    padding: 0 10px 0 20px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+    font-size: 25px;
+}
+.btn{
+    margin: 30px 10px;
+    padding: 10px 10px;
+    border: 2px white solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.33s;
+}
+.btn-red{
+    margin-left: 100px;
+    border-color: #b80924;
+    color: #fff;
+    background: #b80924;
+}
+.btn-red:hover{
+    color: #b80924;
+    background: none;
+}
+.btn-blue{
+    border-color: #1a2942;
+    color: #1a2942;
+}
+.description{
+    width: 90%;
+    margin: 20px auto;
+    color: #1a2942;
+}
+.d50{
+    width: 50%;
+    float: left;
+}
+.description img{
+    width: 100%;
+    height: auto;
+}
+.description .headline-2{
+    font-size: 48px;
+}
+.description h5{
+    font-style: italic;
+    font-size: 24px;
+    padding: 30px 0 50px 10px;
+}
+.photo-block{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.photo-block .photo-block-mp{
+    width: 25%;
+}
+.photo-block img{
+    width: 100%;
+    height: auto;
+}
+.map-main{
+    width: 100%;
+    height: 450px;
+    max-height: 500px;
+    border-bottom: 1px solid grey;
+    box-shadow: 0px 0px 0px 4px rgba(128,124,128,0.3);
+}
+footer{
+    width: 90%;
+    margin: 10px auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+footer div{
+    width: calc(100%/3);
+    margin-left: 100px;
+    margin-top: 20px;
+}
+footer .logo-footer img{
+    width: 100%;
+    height: auto;
+}
+footer .footer-header{
+    font-size: 24px;
+    padding: 10px 0 0 15px;
+}
+footer ul{
+     list-style: none;
+}
+footer .footer-contacts li{
+    padding: 1px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+footer .footer-contacts img{
+    padding-top: 10px;
+    width: 32px;
+    height: auto;
+}
+footer .footer-social{
+    margin-top: 20px;
+}
+footer .footer-social img{
+    width: 48px;
+    height: auto;
+    float: left;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+/* MEDIA QUERIES*/
+@media only screen and (max-width : 1220px),
+only screen and (max-device-width : 1220px){
+    nav li a {
+        font: 400 10px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+
+    nav small {
+        font: 100 10px/1 Helvetica, Verdana, Arial, sans-serif;
+    }
+}
+
+@media only screen and (max-width : 930px),
+only screen and (max-device-width : 930px){
+    nav li a {
+        width: 50%;
+        border-bottom: 1px solid #fff;
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+
+    nav li:last-child a, nav li:nth-child(4) a {
+        border-right: none;
+    }
+
+    nav li:nth-child(5) a {
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width : 580px),
+only screen and (max-device-width : 580px){
+    nav li a {
+        width: 50%;
+        font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    nav li:nth-child(even) a {
+        border-right: none;
+    }
+
+    nav li:nth-child(5) a, nav li:nth-child(6) a {
+        border-bottom: 1px solid #fff;
+    }
+
+    .main .main_content .gilman{
+        top: 50px;
+    }
+}
+
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+    nav li a {
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+}
