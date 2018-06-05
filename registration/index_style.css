@@ -270,6 +270,11 @@ footer .footer-social img{
     height: auto;
     float: left;
 }
+
+.welcome {
+    font-size: 3em;
+}
+
 /* MEDIA QUERIES*/
 @media only screen and (max-width : 1220px),
 only screen and (max-device-width : 1220px){

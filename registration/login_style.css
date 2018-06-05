@@ -33,9 +33,14 @@ h1 {
 	padding: 20px 20px;
 	background-color: #FFF;
 	font-size: 1em;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .btn-send:hover {
 	background-color: #e8e8e8;
 	transition: .2s;
+}
+
+ #notamember, #already {
+		font-family: 'Libre Baskerville', serif;
 }

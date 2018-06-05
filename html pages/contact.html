@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Cache-control" content="no-cache">
     <title>John Hopkins University</title>
     <link href='http://fonts.googleapis.com/css?family=Cutive' rel='stylesheet' type='text/css'>
     <!--Font for footer-->
@@ -15,7 +16,7 @@
 <body>  
 <header>
     <div class="logo">
-        <a href="index.html"><img src="img/university_logo_small_vertical_blue.png" alt=""></a>
+        <a href="index.html"><img src="../img/university_logo_small_vertical_blue.png" alt=""></a>
     </div>
     <nav>
         <ul>
@@ -23,23 +24,23 @@
             <li><a href="about.html">About<br /> <small>Meet Us</small></a></li>
             <li><a href="admissions.html">Admissions<br /> <small>Admissions</small></a></li>
             <li><a href="life.html">Students<br /> <small>Student Life</small></a></li>
-            <li><a href="">Contact<br /> <small>Email Us</small></a></li>
+            <li><a href="contact.html">Contact<br /> <small>Email Us</small></a></li>
         </ul>
     </nav>
 </header>
     <div class="contact_number">
         <p>Phone: 410-516-8000<br>Mailing address:<br>Johns Hopkins University<br>3400 N. Charles Street<br>Baltimore, MD 21218
     </div>
-    <div class="contact_form" >
-        <form action="action_page.php" target="_blank" method="post">
-            <p><input class="inpt" type="text" id="name" placeholder="Name" required="" name="Name"></p>
-            <p><input class="inpt" type="email" id="email" placeholder="Email" required="" name="Email"></p>
-            <p><input class="inpt" type="text" id="subject" placeholder="Subject" required="" name="Subject"></p>
-            <p><input class="inpt" type="text" id="message" placeholder="Message" required="" name="Message"></p>
+    <div class="contact_form">
+        <form action="send_form_email.php" target="_blank" method="post">
+            <p><input class="inpt" type="text" id="name" placeholder="Name" required="" name="name"></p>
+            <p><input class="inpt" type="email" id="email" placeholder="Email" required="" name="email"></p>
+            <p><input class="inpt" type="text" id="subject" placeholder="Subject" required="" name="subject"></p>
+            <p><input class="inpt" type="text" id="message" placeholder="Message" required="" name="message"></p>
             <p>
                 <button class="btn-send" type="submit">
                     SEND MESSAGE
-                </button>
+                </button>            
             </p>
             <p id="returnmessage"></p>
         </form>

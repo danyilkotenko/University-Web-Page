@@ -3,8 +3,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Registration system</title>
-    <link rel="stylesheet" type="text/css" href="login_style.css">
+    <title>John Hopkins Unviersity Registration system</title>
+    <link rel="stylesheet" type="text/css" href="login_style.css?version=51">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">  <!--Font family for the heading-->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> <!--Font family for the page-->
 </head>
@@ -25,8 +25,11 @@
                     Sign up
                 </button>
             </p>
-            <p id="returnmessage"></p>
+            <p id="already">
+                Already a member? <a href="login.php">Sign in</a>
+            </p>
         </form>
     </div>
     </main>
-</body> 
+</body>
+</html>

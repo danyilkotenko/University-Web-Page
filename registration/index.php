@@ -20,7 +20,7 @@
     <link href='http://fonts.googleapis.com/css?family=Cutive' rel='stylesheet' type='text/css'>
     <!--Font for footer-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="../style/index_style.css">
+    <link rel="stylesheet" type="text/css" href="index_style.css?version=51">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
 </head>
 <body>
@@ -52,10 +52,12 @@
     <?php endif ?>
 
            <!-- logged in user information -->
+<div class="welcome">
     <?php  if (isset($_SESSION['username'])) : ?>
         <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
         <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
     <?php endif ?>
+</div>
 
     <div class="head-info">
         <h1>We’re America’s first research university.</h1>

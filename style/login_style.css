@@ -39,3 +39,8 @@ h1 {
 	background-color: #e8e8e8;
 	transition: .2s;
 }
+
+.login_from #notamember {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 3em;
+}
